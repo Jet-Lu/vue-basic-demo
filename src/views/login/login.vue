@@ -46,9 +46,9 @@
                   
                 loginService.login().then(res=>{
                     if (res.success) {
-                        this.$router.push('/home')
+                        this.$router.push('/')
                     }
-                    this.$router.push('/home')
+                    this.$router.push('/')
                 })
             },
         }
